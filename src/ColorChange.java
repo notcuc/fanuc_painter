@@ -32,7 +32,7 @@ public class ColorChange {
         BufferedImage img = null;
 
         try {
-            img = ImageIO.read(new File("C:\\GitHub\\fanuc_painter\\Example\\picture.jpg"));
+            img = ImageIO.read(new File("C:\\GitHub\\fanuc_painter\\Example\\picture.svg"));
         } catch (IOException e) {
             e.printStackTrace();
         }

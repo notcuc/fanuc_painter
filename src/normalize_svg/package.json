@@ -1,0 +1,37 @@
+{
+  "name": "normalize-svg-coords",
+  "version": "1.0.7",
+  "description": "Normalize coordinates in an SVG path to a specified range",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "svg",
+    "normalize",
+    "coordinate",
+    "range",
+    "clip",
+    "mask"
+  ],
+  "author": "Luke Mitchell",
+  "license": "MIT",
+  "dependencies": {
+    "parse-svg-path": "^0.1.2",
+    "svg-path-bounds": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukem512/normalize-svg-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukem512/normalize-svg-path/issues"
+  },
+  "homepage": "https://github.com/lukem512/normalize-svg-path#readme"
+}
