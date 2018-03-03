@@ -32,7 +32,7 @@ public class ColorChange {
         BufferedImage img = null;
 
         try {
-            img = ImageIO.read(new File("C:\\Users\\Tata2\\Pictures\\picture.jpg"));
+            img = ImageIO.read(new File("C:\\GitHub\\fanuc_painter\\Example\\picture.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -53,7 +53,7 @@ public class ColorChange {
 
         img2 = getPixels(newImg, array, img2);
         JLabel label2 = new JLabel(new ImageIcon(Objects.requireNonNull(img2)));
-        LSGenerator.generateLSfile(img2, convertToHex(array), "C:\\Users\\Tata2\\Pictures", "CODE");
+        LSGenerator.generateLSfile(img2, convertToHex(array), "C:\\GitHub\\fanuc_painter\\Example", "CODE");
         frame.add(label2);
         frame.setDefaultCloseOperation
                 (WindowConstants.EXIT_ON_CLOSE);

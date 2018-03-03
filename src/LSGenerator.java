@@ -43,7 +43,13 @@ class LSGenerator {
         int y = 1;
 
         deleteFiles(destPath);
-        List<StringBuilder> blackpointarr = getTest(1, 20);
+        List<StringBuilder> blaceger> redarr = new ArrayList<>(testpoints);
+        System.out.println("generateLSfile: redarr " + redarr);
+
+        int color;
+        int count = 1;
+
+         int [][] soukpointarr = getTest(1, 20);
         List<Integer> blackarr = new ArrayList<>(testpoints);
         System.out.println("generateLSfile: blackarr " + blackarr);
 
@@ -64,13 +70,7 @@ class LSGenerator {
         System.out.println("generateLSfile: bluearr " + bluearr);
 
         List<StringBuilder> redpointarr = getTest(6, 20);
-        List<Integer> redarr = new ArrayList<>(testpoints);
-        System.out.println("generateLSfile: redarr " + redarr);
-
-        int color;
-        int count = 1;
-
-         int [][] sourceImgA = new int[photoWidth][photoHeight];
+        List<IntrceImgA = new int[photoWidth][photoHeight];
         for (int i = 0; i < photoWidth; i++) {
             for (int j = 0; j < photoHeight; j++) {
                 sourceImgA[i][j] = sourceImg.getRGB(i, j);
